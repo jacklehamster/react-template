@@ -1,5 +1,7 @@
-declare function helloWorld(): void;
+import Hello from "./Hello";
+import ReactHook from "./ReactHook";
 declare const exports: {
-    helloWorld: typeof helloWorld;
+    ReactHook: typeof ReactHook;
+    Hello: typeof Hello;
 };
 export default exports;
